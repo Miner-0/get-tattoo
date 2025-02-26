@@ -1,0 +1,966 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.website {
+    background: rgb(23,23,23);
+    background: linear-gradient(180deg, rgba(23,23,23,1) 14%, rgba(0,35,24,1) 36%, rgba(40,88,113,1) 67%, rgba(23,136,135,1) 100%);
+    width: 100%;
+}
+
+.wrapper img {
+    width: 1920px;
+    height: 820px;
+    position: relative;
+    bottom: 723px;
+    z-index: 1;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 50px 0;
+}
+
+header .GET-TATTO {
+    padding-left: 60px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    bottom: 65px;
+    z-index: 3;
+}
+
+header .GET-TATTO a {
+    list-style: none;
+    color: #fff;
+}
+
+header nav {
+    float: right;
+    width: 75%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding-right: 70px;
+}
+
+header nav ul li a {
+    color: #fff;
+}
+
+header nav ul li:not(.active):not(.language_EN):not(.language_BG) a:hover {
+    border-bottom: 5px solid #00432e;
+    border-radius: 5px;
+}
+
+header nav ul li.active::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 5px;
+    background: #00432e;
+    border-radius: 8px;
+    position: relative;
+    top: 10px;
+    left: -8px;
+}
+
+.wrapper .logo_img_one {
+    width: 130px;
+    height: 86px;
+    position: relative;
+    z-index: 3
+}
+
+.wrapper .logo_img_two {
+    width: 130px;
+    height: 86px;
+    position: relative;
+    z-index: 2;
+    bottom: 40px;
+    right: 150px;
+}
+
+
+
+header nav ul .language_EN {
+    position: relative;
+    left: 50px;
+}
+
+header nav ul .language_BG {
+    position: relative;
+    z-index: 2;
+}
+
+.hero--info {
+    width: 1070px;
+    padding-bottom: 30px;
+    position: relative;
+    bottom: 100px;
+    top: 750px;
+}
+
+.hero--info h1 {
+    position: relative;
+    left: 330px;
+    top: 15px;
+}
+
+.hero--info p {
+    padding-top: 40px;
+    padding-left: 350px;
+    color: #4E8F96;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.swiper{
+    width: 850px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    background-color: #002550;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img{
+    object-fit: cover;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    padding-top: 1290px;
+    padding-right: 550px;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    padding-top: 1290px;
+    padding-left: 550px;
+}
+
+.text_img {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 36;
+}
+
+.text_img ul {
+    padding-top: 100px;
+    padding-left: 190px;
+    width: 80%;
+}
+
+.text_img ul .one {
+    padding-right: 10px;
+}
+
+.text_img ul .two {
+    padding-left: 10px;
+}
+
+.text_img ul .tree {
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.text_img ul .four {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.services h1 {
+    text-align: right;
+    padding-right: 250px;
+    padding-top: 250px;
+    position: relative;
+    top: 40px;
+}
+
+.services ul {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 250px;
+}
+
+.services h2 {
+    color: #002550;
+    padding-left: 1440px;
+}
+
+.services ul .number_one {
+    padding-right: 30px;
+}
+
+.services ul .number_two {
+    padding-right: 15px;
+}
+
+.services ul .number_tree {
+    padding-left: 15px;
+}
+
+.services ul .number_four {
+    padding-left: 30px;
+}
+
+.information ul .bag_one {
+    padding-left: 379px;
+    position: relative;
+    z-index: 0;
+}
+
+.information ul .bag_two {
+    padding-left: 847px;
+    position: relative;
+    z-index: 0;
+}
+
+.information .number {
+    padding-left: 1140px;
+    position: relative;
+    bottom: 190px;
+}
+
+.information .logo_img_info {
+    position: relative;
+    bottom: 250px;
+    right: 150px;
+}
+
+.information .podrob {
+    position: relative;
+    left: 500px;
+    bottom: 720px;
+}
+
+.email {
+    padding-bottom: 120px;
+}
+
+.email .block {
+    background: #285871;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 40px 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email .block h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.email .block p {
+    width: 500;
+    font-size: 17px;
+}
+
+.email .block input, .information--studio .registr input {
+    background: #fff;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    width: 380px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    padding: 18px 28px;
+    position: relative;
+    right: -100px;
+    z-index: 1;
+    padding-right: 120px;
+}
+
+.email .block input::placeholder, .information--studio .registr input::placeholder {
+    color: #898989;
+}
+
+.email .block button, .information--studio .registr button {
+    background: #11ABB0;
+    padding: 9px 17px;
+    border-radius: 5px;
+    transition: all 500ms ease;
+    position: relative;
+    z-index: 2;
+}
+
+.email .block button:hover, .information--studio .registr button:hover {
+    background: #0e8286;
+}
+
+.email .block button, .information--studio .registr button {
+    cursor: pointer;
+    border: 0;
+    padding: 11px 15px;
+    color: #fff;
+}
+
+.slider-container {
+    padding-top: 100px;
+    max-width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.text-slide {
+    display: none;
+    font-size: 20px;
+    padding: 50px 50px;
+    color: #ffffff;
+    font-weight: 600;
+    background: #0e8286;
+    border-radius: 9px;
+}
+
+.active {
+    display: block;
+
+}
+.btn1, .btn2 {
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    background: #0c7275;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    position: relative;
+    bottom: 30px;
+    left: 450px;
+    transition: all 500ms ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn1:hover, .btn2:hover, .info--img .info button:hover, .m-all .masters .reting button:hover {
+    background: #108f93;
+}
+
+.btn1, .btn2 {
+    transition: all 0.2s ease-out;
+}
+
+.btn1:active, .btn2:active, .info--img .info button:active, .m-all .masters .reting button:active, .information--studio .registr .email-num button:active {
+    transform: scale(0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes spring {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1); 
+    }
+    100% {
+      transform: scale(1); 
+    }
+  }
+  
+.btn1, .btn2.spring {
+    animation: spring 0.3s ease-out;
+}
+
+.text_img p {
+    max-width: 1100px;
+    margin: auto;
+    border-radius: 9px;
+    background: #0e8286;
+    padding: 30px 0;
+    position: relative;
+    top: 320px;
+}
+
+.wrapper .container .tree-backround img {
+    padding-top: 575px;
+    position: relative;
+    z-index: 1;
+}
+
+footer {
+    background: #000;
+    padding: 50px 0;
+}
+
+footer .blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .blocks .logo {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer .blocks p {
+    width: 300;
+    margin: 15px 0;
+}
+
+footer .blocks h4 {
+    font-weight: 500;
+    font-size: 21px;
+}
+
+footer .blocks ul {
+    list-style: none;
+    font-size: 17px;
+}
+
+footer .blocks ul li {
+    margin-top: 7px;
+    opacity: 0.8;
+}
+
+footer hr {
+    margin: 30px 0;
+    border: 0;
+    height: 0.6px;
+    background: #ccc;
+}
+
+footer > p {
+    text-align: center;
+}
+
+.info--img {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 580px;
+}
+
+.info--img .info {
+    max-width: 500px;
+}
+
+.info--img .info p {
+    font-size: 18px;
+    opacity: 0.9;
+    padding: 15px 0;
+}
+
+.info--img .info h3 {
+    padding: 15px 0;
+    padding-bottom: 25px;
+}
+
+.info--img .info button {
+    font-size: 15px;
+    color: #fff;
+    opacity: 0.9;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 25px;
+    background: #0c7275;
+    transition: all 500ms ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.info--img .img {
+    width: 512px;
+    height: 512px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+}
+
+.info--img .img .img {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.location .adress {
+    padding-left: 250px;
+}
+
+.location .adress .box--adress img, .box--number img {
+    width: 64px;
+    height: 64px;
+}
+
+.location .adress .box--number img {
+    position: relative;
+    right: 90px;
+}
+
+.location .adress .box--number .document {
+    width: 54px;
+    height: 74px;
+    position: relative;
+    right: 70px;
+}
+
+.location .adress .box--adress {
+    padding: 30px 50px;
+    background: #0b9195;
+    max-width: 450px;
+    border-radius: 9px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location .adress p {
+    position: relative;
+    right: 60px;
+    top: 20px;
+}
+
+.location .adress .box--number p {
+    position: relative;
+    right: 185px;
+    top: 20px;
+}
+
+.location .adress .box--number .number--p {
+    position: relative;
+    right: 245px;
+    top: 20px;
+}
+
+.location .adress h1, .map h1 {
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 15px;
+}
+
+.location .adress .box--number {
+    padding: 30px 50px;
+    background: #0b9195;
+    max-width: 550px;
+    border-radius: 9px
+}
+
+.location .adress .box--number .number, .document--d {
+    display: flex;
+    justify-content: space-around;
+}
+
+.location .map img {
+    width: 662px;
+    height: 512px;
+}
+
+.location .map {
+    padding-left: 1000px;
+    position: relative;
+    bottom: 485px;
+}
+
+.footer--hr p {
+    background: #ccc;
+    opacity: 0.4;
+    padding: 90px 0;
+    position: relative;
+    bottom: 285px;
+}
+
+.footer--hr img {
+    position: relative;
+    left: 850px;
+    bottom: 450px;
+    width: 128px;
+    height: 128px;
+}
+
+@media (min-widht: 1200px) {
+    .wrapper .container span {
+        position: relative;
+        left: 50px;
+    }
+
+    .wrapper .container {
+        width: 1200px;
+    }
+}
+
+.location .m-h1 {
+    text-align: center;
+    position: relative;
+    bottom: 1240px;
+}
+
+.m-all {
+    position: relative;
+    bottom: 1100px;
+}
+
+.m-all .m-1 > button {
+    font-size: 25px;
+    border: none;
+    background: none;
+    position: relative;
+    left: 320px;
+    top: 45px;
+}
+
+.m-all .m-1 > button:hover {
+    color: rgb(190, 204, 0);
+    cursor: pointer;
+}
+
+.m-all .masters {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    background: #0b9195;
+    max-width: 1200px;
+    border-radius: 11px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.m-all .masters .h3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-all .masters .about--masters .text img {
+    width: 24px;
+    height: 24px;
+    padding-top: 3px;
+    padding-right: 7px;
+}
+
+.m-all .masters .h3 .two {
+    padding-left: 100px;
+}
+
+.m-all .masters .h3 .three {
+    padding-left: 100px;
+}
+
+.m-all .masters .about--masters {
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-all .masters .about--masters .text {
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+.m-all .masters .about--masters .text .h3 .one, .two, .three, .h1 {
+    font-weight: 300;
+}
+
+.m-all .masters .about--masters .h1 {
+    padding-top: 10px;
+}
+
+.m-all .masters .about--masters img {
+    height: 128px;
+    width: 128px;
+}
+
+.m-all .masters .reting .r-t {
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-all .masters .reting .r-t p {
+    font-size: 17px;
+    position: relative;
+    top: 25px;
+    left: 15px;
+}
+
+.m-all .masters .reting .r-t h1 {
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.m-all .masters .reting .r-t h3 {
+    position: relative;
+    top: 10px;
+}
+
+.m-all .masters .reting button {
+    background: #0d7f83;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 500ms ease;
+    position: relative;
+    top: 15px;
+}
+
+.m-all .m-2, .m-all .m-3, .m-all .m-4 {
+    padding-top: 50px;
+}
+
+.m-all .m-4 {
+    padding-bottom: 50px;
+}
+
+.m-all .open--m button {
+    position: relative;
+    bottom: 20px;
+    padding: 20px 30px;
+    margin: 0 auto;
+    display: block;
+    font-size: 40px;
+    color: #fff;
+    background: none;
+    border: none;
+}
+
+.m-all .open--m button:hover {
+    cursor: pointer;
+    font-size: 43px;
+    transition: 0.2s;
+    color: #c7c7c7;
+}
+
+.m-all .open--m button:active {
+    font-size: 37px;
+    color: #898989;
+    transition: 0.2s;
+    transform: rotate(60deg);
+}
+
+.information--studio {
+    padding-bottom: 400px;
+    position: relative;
+    bottom: 200px;
+    right: 220px;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.information--studio .number {
+    position: relative;
+    bottom: 190px;
+    left: 290px;
+}
+
+.information--studio .logo_img_info {
+    position: relative;
+    bottom: 230px;
+    left: 140px;
+}
+
+.information--studio .email-num{
+    position: relative;
+    bottom: 450px;
+    left: 700px;
+}
+
+.information--studio .email-num .number {
+    position: relative;
+    bottom: 100px;
+    left: 1px;
+    opacity: 0.9;
+}
+
+.information--studio .email-num .email {
+    position: relative;
+    left: 1px;
+    opacity: 0.9;
+}
+
+.information--studio > p {
+    position: relative;
+    right: 35px;
+    text-align: center;
+    padding: 175px 700px;
+    background: #000000;
+    border-radius: 9px;
+    opacity: 0.9;
+}
+
+.information--studio .registr {
+    position: relative;
+    bottom: 372px;
+}
+
+.information--studio .registr img {
+    position: relative;
+    right: 32px;
+}
+
+.information--studio .registr .email-num p {
+    position: relative;
+    left: 350px;
+    bottom: 110px;
+}
+
+.information--studio .registr .email-num button {
+    padding: 10px 38px;
+    transition: all 500ms ease-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.information--studio .ck-b {
+    position: relative;
+    bottom: 900px;
+    left: 888px;
+}
+
+.information--studio .ck-b label {
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.information .podrob_1300px {
+    opacity: 0;
+}
+
+@media (max-width: 1300px) {
+    .wrapper .container nav ul {
+        position: relative;
+        right: 100px;
+    }
+
+    .wrapper .container .logo_img_two {
+        position: relative;
+        right: 45px;
+    }
+
+    .wrapper .hero img {
+        width: 1300px;
+    }
+
+    .wrapper .hero .hero--info {
+        position: relative;
+        right: 50px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        padding-bottom: 150px;
+    }
+
+    .text_img .one {
+        width: 371px;
+        height: 371px;
+        position: relative;
+        right: 60px;
+    }
+
+    .text_img .two {
+        width: 571px;
+        height: 371px;
+        position: relative;
+        right: 60px;
+    }
+
+    .text_img .tree {
+        width: 571px;
+        height: 371px;
+        position: relative;
+        right: 60px;
+    }
+
+    .text_img .four {
+        width: 371px;
+        height: 371px;
+        position: relative;
+        right: 60px;
+    }
+
+    .services h1 {
+        position: relative;
+        left: 150px;
+        bottom: 21px;
+    }
+
+    .information ul .bag_one, .bag_two {
+        position: relative;
+        right: 290px;
+    }
+
+    .information .number {
+        position: relative;
+        right: 290px;
+        bottom: 80px;
+    }
+
+    .information .podrob {
+        opacity: 0;
+    }
+
+    .information .logo_img_info {
+        position: relative;
+        left: 1020px;
+        bottom: 270px;
+    }
+
+    .information .podrob_1300px {
+        position: relative;
+        bottom: 710px;
+        right: 390px;
+        opacity: 1;
+    }
+
+    .email .block {
+        width: 1000px;
+        position: relative;
+        left: 75px;
+    }
+
+    footer .blocks span {
+        position: relative;
+        left: 100px;
+    }
+
+    footer .blocks .link .about-us {
+        position: relative;
+        left: 50px;
+    }
+
+    footer .blocks .servies {
+        position: relative;
+        right: 50px;
+    }
+
+}
